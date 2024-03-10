@@ -1,4 +1,5 @@
 package com.driver;
+
 import java.util.*;
 public class Main {
     
@@ -12,20 +13,21 @@ public class Main {
     }
     public static class Product{
         public int product(int x, int y) {
-            return x+y;
+            return x*y;
         }
         
     
    //  @overloaded
       public int product(int x, int y, int z) {
-          return x+y+z;
+          return x*y*z;
           
       }
     //  @overloaded
       public double product(double x, double y) {
-          return x+y;
+          return x*y;
           
       }
       }
 }
+
 
